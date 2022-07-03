@@ -1,0 +1,567 @@
+@font-face{
+  src: url(fonts/TitilliumWeb-Regular.ttf);
+  font-family: TitilliumWeb-Regular;
+ 
+}
+@font-face{
+  src: url(fonts/TitilliumWeb-Bold.ttf);
+  font-family: TitilliumWeb-Bold;
+ 
+}
+h2,h3{
+  font-family: TitilliumWeb-Bold; 
+}
+
+/* ===================Welcome section design start ====================*/
+
+.welcome{
+  background-color: #87509c;
+  background-image: url(images/26.jpg);
+  height: 100vh;
+  max-width: 1438px;
+  width: 100%;
+}
+.blr{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0,0,0,.6);
+  padding-bottom: 180px;
+  padding-top: 50px;
+}
+.header:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.mid{
+  width: 80%;
+  margin: auto;
+}
+.mid .logo{
+  width: 20%;
+  float: left;
+}
+.mid .menu{
+  width: 80%;
+  float: left;
+}
+.mid .menu ul{
+  text-align:right;
+}
+.mid .menu ul li{
+  display: inline-block;
+}
+.mid .menu ul li a{
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.mid .menu ul li a:hover{
+  background-color: #643a79;
+  border-radius: 3px;
+}
+.welcome h1{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+  
+}
+.welcome-text{
+  text-align: center;
+}
+.welcome-text a{
+  background-color: #eb7d4b;
+  color: #fff;
+  display:inline-block;
+  padding: 15px 50px;
+  font-weight: bold;
+  border-radius: 3px;
+  border-bottom: 5px solid #c86a40;
+  margin-top: 60px;
+  font-size: 19px;
+}
+
+/*==================== Welcome section design end =====================*/
+
+/*================== Service section design start ======================*/
+
+.service{
+  padding: 100px 0px;
+  background-color: #17c2a4;
+}
+.service .mid h2{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+.service .mid hr{
+  width: 90px;
+  margin: auto;
+  border-top: none;
+  border-bottom: 4px solid #14a58c;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.service .mid > p{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 54%;
+  margin:20px auto;
+  line-height: 1.5em;
+}
+.service-area{
+  margin-top: 50px;
+  display: flex;
+}
+.service-box{
+  width: 24.5%;
+  margin: auto;
+}
+.service-box img{
+  display: block;
+  margin: auto;
+}
+.service-box h3{
+  color: #fff;
+  text-align: center;
+  margin: 20px auto;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+}
+.service-box p{
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+
+
+/*===================== Service section design end ====================*/
+
+
+/*===================== Team section design start====================*/
+.team{
+  background-color:#e7f1f8;
+  padding: 100px;
+  padding-bottom: 30px;
+}
+
+.team h2{
+  color: #3c4761;
+  text-align: center;
+  font-size: 41.29px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+.team hr{
+  width: 90px;
+  margin: auto;
+  border-top: none;
+  border-bottom: 4px solid #c8d9e5;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.team> p{
+  color: #3c4761;
+  font-size: 18.58px;
+  text-align: center;
+  
+  margin:20px auto;
+  line-height: 1.5em;
+}
+
+.team-area{
+  display: flex;
+  margin: 80px 0px;
+}
+.team-box{
+  padding: 0px 20px;
+}
+.team-box img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+
+}
+.team-box h3{
+  color: #3c4761;
+  text-align: center;
+  margin: 30px auto 0px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.team-box h4{
+  color: #30bae7;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0px;
+}
+.team-box p{
+  color: #3c4761;
+  font-size: 15px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  line-height: 1.5em;
+}
+.team-box ul{
+  text-align: center;
+  margin: 20px 0px;
+}
+.team-box ul li{
+  display: inline-block;
+}
+.team-box ul li a{
+  background-color: #bdd1df;
+  color: #fff;
+  display: block;
+  padding: 9px 11px;
+  border-radius: 50%;
+  font-size: 16px;
+  margin: 3px;
+}
+.team-box ul.first li:nth-child(1) a{
+   padding: 9.5px 14px;
+
+}
+/*===================== Team section design end====================*/
+
+/*===================== Skill section design start====================*/
+.skill{
+  padding: 100px ;
+}
+.skill .mid{
+  width: 100%;
+}
+.skill h2{
+  color: #3c4761;
+  text-align: center;
+  font-size: 41.29px;
+  letter-spacing: 3px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.skill hr{
+  width: 90px;
+  margin: auto;
+  border-top: none;
+  border-bottom: 4px solid #c8d9e5;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.skill> p{
+  color: #3c4761;
+  font-size: 18.58px;
+  text-align: center;
+  margin:20px auto;
+  line-height: 1.5em;
+  width: 50%;
+}
+.skill-area{
+display: inline-block;
+width: 24%;
+margin-top: 70px;
+  
+}
+.skill-area img{
+ 
+  display: block;
+  margin: auto;
+}
+.skill-area h3{
+  color: #3c4761;
+  text-align: center;
+  margin: 30px auto 0px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+/*===================== Skill section design end====================*/
+
+
+/*===================== Portfolio section design start====================*/
+.portfolio{
+  background-color: #ffdd99;
+  padding: 100px;
+  clear: both;
+}
+.portfolio h2{
+  color: #393939;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.portfolio hr{
+  width: 90px;
+  margin: auto;
+  border-top: none;
+  border-bottom: 4px solid #e5c37f;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.portfolio .top>p{
+  color: #393939;
+  font-size: 18.58px;
+  text-align: center;
+  margin:20px auto;
+  line-height: 1.5em;
+  width: 50%;
+}
+.portfolio nav ul{
+  text-align: center;
+  margin: 50px;
+}
+.portfolio nav ul li{
+  display: inline-block;
+  width: 70px;
+  margin:3px;
+  background-color: #ebc985;
+  padding:8px 6px;
+  border-radius: 5px
+}
+.portfolio nav ul li a{
+
+  color: #393939;
+  font-size: 18px;
+  text-transform: uppercase;
+ 
+}
+
+.projects{
+  overflow: hidden;
+}
+
+.img{
+ 
+  float: left;
+  padding: 16px;
+  
+}
+
+.img h4{
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #393939;
+}
+.portfolio input{
+  color:#ffffff;
+  background-color:#17c2a4;
+  display:block;
+  margin:50px auto 0px;
+  padding: 20px 50px;
+  border: none;
+  border-bottom: 4px solid #14a58c;
+  border-radius: 5px;
+  font-size: 18px;
+
+}
+/*===================== Portfolio section design end====================*/
+
+
+/*===================== about-us section design start====================*/
+.about-us{
+  background-color: #d74680;
+  padding: 100px;
+  padding-bottom: 0px;
+}
+.about-us h2{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.about-us hr{
+  width: 90px;
+  margin: auto;
+  border-top: none;
+  border-bottom: 4px solid #b73c6d;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-us> p{
+  color: #fff;
+  font-size: 18.58px;
+  text-align: center;
+  margin: auto ;
+  line-height: 1.5em;
+  width: 50%;
+}
+.clients-view{
+  overflow: hidden;
+  margin-top:100px ;
+  
+}
+.cviews {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.cviews img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+}
+.cviews .img{
+  width: 20%;
+  float: left;
+  
+}
+.comments{
+  width: 70%;
+  float: left;
+  margin: 15px 0px;
+}
+
+.cviews .comments p{
+  width: 90%;
+  color: #fff;
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.5em;
+  
+}
+.cviews h3{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  margin: 20px 0px 5px;
+ 
+}
+.cviews h4{
+  font-size: 18px;
+  color: #ffdd99;
+}
+
+/*===================== about-us section design end====================*/
+
+
+/*===================== Contact page design start====================*/
+  .contact-page{
+    background-color: #3c5499;
+    padding: 100px;
+  }
+  .contact-page h2{
+    color: #fff;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  font-weight: 200;
+  text-transform: uppercase;
+  }
+  .contact-page hr{
+    width: 90px;
+    margin: auto;
+    border-top: none;
+    border-bottom: 4px solid #273a71;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-page>p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin: auto ;
+    line-height: 1.5em;
+   
+  }
+  .input-area{
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+  }
+   .input1,.input2{
+    margin-left:70px;
+  }
+  .input-area .input1 form input{
+    width: 40%;
+    background-color: #273a71;
+    padding: 15px;
+    border: none;
+    color: #fff;
+    margin: 0px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .input-area .input2 textarea{
+    width: 87%;
+    height: 150px;
+    background-color: #273a71;
+    padding: 15px;
+    border: none;
+    color: #fff;
+    margin:30px 14px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .contact-page> form input{
+    color:#ffffff;
+    background-color:#30bae7;
+    display:block;
+    margin:30px auto 0px;
+    padding: 20px 80px;
+    border: none;
+    border-bottom: 4px solid #299ec5;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+  
+  }
+  footer{
+    background-color: #344b8e;
+  }
+ footer ul{
+   text-align: center;
+ }
+ footer ul li{
+   display: inline-block;
+   padding: 30px 20px;
+ }
+ footer ul li a{
+   color: #fff;
+   font-size: 24px;
+   font-weight: 400;
+ }
+ footer ul li a:hover{
+   color: #30bae7;
+ }
+/*===================== Contact page design end====================*/
+
+
